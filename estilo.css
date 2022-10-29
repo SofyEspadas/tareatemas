@@ -1,0 +1,217 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+  max-width: 1200px;
+
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+
+}
+
+h1{
+  text-align: center;
+  color: black;
+}
+
+img{
+  width: auto;
+}
+.galeria{
+  border: 2px red solid;
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  max-width: 1200px;
+}
+
+#team{
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+ }
+ #team figure{
+  width: 200px;
+  overflow: hidden;
+  border: 2px rgb(17, 17, 104) solid;
+
+ }
+ #team figure img{
+  width: 100%;
+  height: 100%;
+ }
+
+ .equipo{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+ }
+ #team #foto1:hover{
+  filter: grayscale(1000%);
+  transition: all .5s;
+  transform: scale(1);
+ }
+ #team #foto1:hover{
+  filter: grayscale(0%);
+  transform: scale(2);
+ }
+ #team #foto2:hover{
+  filter: grayscale(1000%);
+  transition: all .5s;
+  transform: scale(1);
+ }
+ #team #foto2:hover{
+  filter: grayscale(0%);
+  transform: scale(2);
+ }
+ #team #foto3:hover{
+  filter: grayscale(1000%);
+  transition: all .5s;
+  transform: scale(1);
+ }
+ #team #foto3:hover{
+  filter: grayscale(0%);
+  transform: scale(2);
+ }
+ #team #foto4:hover{
+  filter: grayscale(1000%);
+  transition: all .5s;
+  transform: scale(1);
+ }
+ #team #foto4:hover{
+  filter: grayscale(0%);
+  transform: scale(2);
+ }
+
+ .info{
+  border: 2px rgb(17, 17, 104) solid;
+  background-color: rgb(245, 245, 251);
+ justify-content: space-evenly;
+ display: flex;
+ align-items: center;
+ width: 200px;
+ margin-top: -5px;
+ padding: 10px;
+ }
+ .info i{
+  color: gray;
+ }
+ .tema{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ #uno{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja{
+  border: 1px #ccc solid;
+  padding: 80px;
+  max-width: 400px;
+  text-align: center;
+
+}
+
+.caja a{
+  background-color: white;
+  color: black;
+  border: 3px  black solid;
+  text-decoration: none;
+  padding: 15px 30px;
+  display: inline-block;
+  margin-top: 20px;
+  /* transition-property: background-color ;
+  transition-duration: 10s; */
+  transition: background-color 1s;
+}
+.caja a:hover{
+  background-color: rgb(184, 44, 170);
+}
+
+.cabecera3{
+  padding: 50px 0px;
+  background-color: #faf9f7;
+  /* border:1px blue solid; */
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items:stretch;
+  gap: -300px;
+  flex-wrap: wrap;
+}
+
+.todos{
+  /*border:1px red solid; */
+  max-width: 350px;
+  background-color: #fcfdfd;
+  position: relative;
+  margin-bottom: 50px;
+  border-radius: 15px;
+}
+
+.todos p{
+  text-align: left;
+  margin-left: 10px;
+  font-size:medium;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.todos figure{
+  /*border: 1px blue solid;*/
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.todos figure img{
+  border: 5px white solid;
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width:480px) {
+  .galeria{
+    border: 2px red solid;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    max-width: 1200px;
+  }
+
+  #uno{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+
